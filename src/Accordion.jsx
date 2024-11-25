@@ -7,7 +7,7 @@ const Accordion = () => {
 
     function handlesingleSelection(getCurrentId){
         setSelected(getCurrentId === !selected ? null : getCurrentId);
-        console.log(selected)
+        // console.log(selected)
     }
 
 
